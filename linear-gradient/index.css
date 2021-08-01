@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+details {
+  margin-top: 20px;
+  max-width: 500px;
+  min-width: 500px;
+}
+
+details > summary {
+  padding-bottom: 10px;
+}
+
+/** Default */
+.linear-gradient-default {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(blue, red);
+}
+
+/** Tilted 45 degrees */
+.linear-gradient-tilted-45 {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(45deg, blue, red);
+}
+
+/** Tilted 45 degrees */
+.linear-gradient-to-left-top {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to left top, blue, red);
+}
