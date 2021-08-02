@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+details {
+  margin-top: 20px;
+  max-width: 500px;
+  min-width: 500px;
+}
+
+details > summary {
+  padding-bottom: 10px;
+}
+
+.radial-gradient {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(red, blue);
+}

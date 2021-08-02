@@ -25,19 +25,45 @@ details > summary {
 .linear-gradient-default {
   width: 100px;
   height: 100px;
-  background-image: linear-gradient(blue, red);
+  background-image: linear-gradient(blue 29.69%, red);
 }
 
 /** Tilted 45 degrees */
 .linear-gradient-tilted-45 {
   width: 100px;
   height: 100px;
-  background-image: linear-gradient(45deg, blue, red);
+  background-image: linear-gradient(-45deg, blue, red);
 }
 
 /** Tilted 45 degrees */
 .linear-gradient-to-left-top {
   width: 100px;
   height: 100px;
-  background-image: linear-gradient(to left top, blue, red);
+  background-image: linear-gradient(to right top, blue, red);
+}
+
+.radial-gradient {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(red, blue);
+}
+
+.text-shadow {
+  width: 100px;
+  height: 100px;
+  text-transform: capitalize;
+  font-size: 20px;
+  transition: .3s text-transform, .3s font-size;
+}
+
+.text-shadow:hover {
+  font-size: 120px;
+  text-transform:uppercase;
+}
+
+.box-shadow {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(red, green);
+  box-shadow: 10px pink, 20px 20px 9px purple, 40px 40px 18px yellow;
 }
